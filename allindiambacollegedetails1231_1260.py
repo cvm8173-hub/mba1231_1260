@@ -38,13 +38,13 @@ BASE_URL = [
   "https://www.shiksha.com/college/shri-vishnu-engineering-college-for-women-west-godavari-21184",
   "https://www.shiksha.com/college/mailam-engineering-college-tamil-nadu-other-22775",
   "https://www.shiksha.com/college/national-institute-of-financial-management-faridabad-27993",
-  "https://www.shiksha.com/college/n-r-institute-of-business-management-nribm-ellis-bridge-ahmedabad-37055",
-  "https://www.shiksha.com/university/abhilashi-university-mandi-56079",
-  "https://www.shiksha.com/college/university-college-of-engineering-bharathidasan-institute-of-technology-tiruchirappalli-anna-university-61449",
-  "https://www.shiksha.com/college/sage-university-powered-by-sunstone-bhopal-205091",
-  "https://www.shiksha.com/university/gm-university-davangere-215833",
-  "https://www.shiksha.com/college/vanguard-business-school-hosur-road-bangalore-36395",
-  "https://www.shiksha.com/college/chandravati-group-of-institutions-c-g-i-bharatpur-36805",
+  # "https://www.shiksha.com/college/n-r-institute-of-business-management-nribm-ellis-bridge-ahmedabad-37055",
+  # "https://www.shiksha.com/university/abhilashi-university-mandi-56079",
+  # "https://www.shiksha.com/college/university-college-of-engineering-bharathidasan-institute-of-technology-tiruchirappalli-anna-university-61449",
+  # "https://www.shiksha.com/college/sage-university-powered-by-sunstone-bhopal-205091",
+  # "https://www.shiksha.com/university/gm-university-davangere-215833",
+  # "https://www.shiksha.com/college/vanguard-business-school-hosur-road-bangalore-36395",
+  # "https://www.shiksha.com/college/chandravati-group-of-institutions-c-g-i-bharatpur-36805",
 ]
 
 
