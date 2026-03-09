@@ -8558,6 +8558,7 @@ except StaleElementReferenceException:
                 "faculty_name": faculty_name,
                 "qualifications": qualifications
             })
+
     return {"college_info":college_info,"data":data}
 
 def parse_faculty_reviews(driver,URLS):
