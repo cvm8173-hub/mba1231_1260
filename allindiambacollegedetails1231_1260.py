@@ -15,36 +15,36 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/vivekananda-pg-college-ranga-reddy-148495",
-  "https://www.shiksha.com/college/aditya-university-powered-by-sunstone-kakinada-230676",
-  "https://www.shiksha.com/college/rpiit-technical-campus-karnal-34345",
-  "https://www.shiksha.com/university/william-carey-university-shillong-64857",
-  "https://www.shiksha.com/university/south-asian-university-sau-delhi-35661",
-  "https://www.shiksha.com/college/sasurie-college-of-engineering-tirupur-42814",
-  "https://www.shiksha.com/college/itm-financial-markets-institute-navi-mumbai-23404",
-  "https://www.shiksha.com/college/himalayan-institute-of-technology-dehradun-52663",
-  "https://www.shiksha.com/college/gvr-s-college-of-engineering-technology-guntur-60783",
-  "https://www.shiksha.com/college/sri-padmavathi-studies-of-computer-sciences-and-technology-tirupati-68839",
-  "https://www.shiksha.com/university/d-y-patil-education-society-kolhapur-231594",
-  "https://www.shiksha.com/college/d-n-r-college-dnrc-andhra-pradesh-andhra-pradesh-other-25381",
-  "https://www.shiksha.com/college/footwear-design-and-development-institute-fursatganj-amethi-204783",
-  "https://www.shiksha.com/college/pallavan-college-of-engineering-kanchipuram-22857",
-  "https://www.shiksha.com/college/omkarananda-institute-of-management-and-technology-oimt-rishikesh-24249",
-  "https://www.shiksha.com/college/h-m-s-institute-of-technology-tumkur-25144",
-  "https://www.shiksha.com/college/tkws-institute-of-banking-and-finance-rajendra-nagar-delhi-33056",
-  "https://www.shiksha.com/college/shree-h-n-shukla-group-of-colleges-rajkot-37134",
-  "https://www.shiksha.com/college/vision-p-g-college-ghatkesar-hyderabad-62283",
-  "https://www.shiksha.com/university/dr-preeti-global-university-indore-216077",
-  "https://www.shiksha.com/college/shri-vishnu-engineering-college-for-women-west-godavari-21184",
-  "https://www.shiksha.com/college/mailam-engineering-college-tamil-nadu-other-22775",
-  "https://www.shiksha.com/college/national-institute-of-financial-management-faridabad-27993",
-  # "https://www.shiksha.com/college/n-r-institute-of-business-management-nribm-ellis-bridge-ahmedabad-37055",
-  # "https://www.shiksha.com/university/abhilashi-university-mandi-56079",
-  # "https://www.shiksha.com/college/university-college-of-engineering-bharathidasan-institute-of-technology-tiruchirappalli-anna-university-61449",
-  # "https://www.shiksha.com/college/sage-university-powered-by-sunstone-bhopal-205091",
-  # "https://www.shiksha.com/university/gm-university-davangere-215833",
-  # "https://www.shiksha.com/college/vanguard-business-school-hosur-road-bangalore-36395",
-  # "https://www.shiksha.com/college/chandravati-group-of-institutions-c-g-i-bharatpur-36805",
+  # "https://www.shiksha.com/college/vivekananda-pg-college-ranga-reddy-148495",
+  # "https://www.shiksha.com/college/aditya-university-powered-by-sunstone-kakinada-230676",
+  # "https://www.shiksha.com/college/rpiit-technical-campus-karnal-34345",
+  # "https://www.shiksha.com/university/william-carey-university-shillong-64857",
+  # "https://www.shiksha.com/university/south-asian-university-sau-delhi-35661",
+  # "https://www.shiksha.com/college/sasurie-college-of-engineering-tirupur-42814",
+  # "https://www.shiksha.com/college/itm-financial-markets-institute-navi-mumbai-23404",
+  # "https://www.shiksha.com/college/himalayan-institute-of-technology-dehradun-52663",
+  # "https://www.shiksha.com/college/gvr-s-college-of-engineering-technology-guntur-60783",
+  # "https://www.shiksha.com/college/sri-padmavathi-studies-of-computer-sciences-and-technology-tirupati-68839",
+  # "https://www.shiksha.com/university/d-y-patil-education-society-kolhapur-231594",
+  # "https://www.shiksha.com/college/d-n-r-college-dnrc-andhra-pradesh-andhra-pradesh-other-25381",
+  # "https://www.shiksha.com/college/footwear-design-and-development-institute-fursatganj-amethi-204783",
+  # "https://www.shiksha.com/college/pallavan-college-of-engineering-kanchipuram-22857",
+  # "https://www.shiksha.com/college/omkarananda-institute-of-management-and-technology-oimt-rishikesh-24249",
+  # "https://www.shiksha.com/college/h-m-s-institute-of-technology-tumkur-25144",
+  # "https://www.shiksha.com/college/tkws-institute-of-banking-and-finance-rajendra-nagar-delhi-33056",
+  # "https://www.shiksha.com/college/shree-h-n-shukla-group-of-colleges-rajkot-37134",
+  # "https://www.shiksha.com/college/vision-p-g-college-ghatkesar-hyderabad-62283",
+  # "https://www.shiksha.com/university/dr-preeti-global-university-indore-216077",
+  # "https://www.shiksha.com/college/shri-vishnu-engineering-college-for-women-west-godavari-21184",
+  # "https://www.shiksha.com/college/mailam-engineering-college-tamil-nadu-other-22775",
+  # "https://www.shiksha.com/college/national-institute-of-financial-management-faridabad-27993",
+  "https://www.shiksha.com/college/n-r-institute-of-business-management-nribm-ellis-bridge-ahmedabad-37055",
+  "https://www.shiksha.com/university/abhilashi-university-mandi-56079",
+  "https://www.shiksha.com/college/university-college-of-engineering-bharathidasan-institute-of-technology-tiruchirappalli-anna-university-61449",
+  "https://www.shiksha.com/college/sage-university-powered-by-sunstone-bhopal-205091",
+  "https://www.shiksha.com/university/gm-university-davangere-215833",
+  "https://www.shiksha.com/college/vanguard-business-school-hosur-road-bangalore-36395",
+  "https://www.shiksha.com/college/chandravati-group-of-institutions-c-g-i-bharatpur-36805",
 ]
 
 
@@ -9254,7 +9254,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =1231
+    c_count =1254
 
     try:
         for base_url in BASE_URL:
