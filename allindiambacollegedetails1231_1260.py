@@ -8646,7 +8646,7 @@ def parse_review_summarisation_all_tabs(driver,URLS):
         )
     except:
         print("⚠️ parse_review_summarisation_all_tabs not available, skipping")
-        return None
+  
 
     driver.execute_script(
         "arguments[0].scrollIntoView({block:'center'});", section
