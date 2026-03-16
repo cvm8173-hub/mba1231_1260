@@ -8632,6 +8632,8 @@ def parse_review_summarisation_all_tabs(driver,URLS):
         )
     except:
         print("⚠️ parse_review_summarisation_all_tabs not available, skipping")
+    if section is None:
+    return {}
     
     if section:
         driver.execute_script(
@@ -8644,12 +8646,10 @@ def parse_review_summarisation_all_tabs(driver,URLS):
         "tabs_data": {}
     }
 
-    # Heading
-    try:
-        heading = section.find_element(By.CLASS_NAME, "rvwSmSecHeading")
-        final_data["heading"] = heading.text.strip()
-    except:
-        pass
+  
+    heading = section.find_element(By.CLASS_NAME, "rvwSmSecHeading")
+    final_data["heading"] = heading.text.strip()
+
 
     # All tabs
     tabs = section.find_elements(By.CLASS_NAME, "rvwSmTabItem")
