@@ -8632,8 +8632,9 @@ def parse_review_summarisation_all_tabs(driver,URLS):
         )
     except:
         print("⚠️ parse_review_summarisation_all_tabs not available, skipping")
+      
     if section is None:
-    return {}
+        return {}
     
     if section:
         driver.execute_script(
